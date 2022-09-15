@@ -25,7 +25,6 @@ double get_east_storage(std::string date)
 		fin.ignore(INT_MAX, '\n');
 		if (actual_date == date)
 		{
-			std::cout << "works" << std::endl;
 			storage = eastSt;
 		}
 	} 
