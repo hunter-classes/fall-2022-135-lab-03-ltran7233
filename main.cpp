@@ -1,12 +1,3 @@
-/*
-Author: Lina Tran
-Course: CSI-135
-Instructor: Professor Genady Maryash
-Assignment: Lab3A
-
-Description: This program prints from a TSV file when a date parameter is inputted in a function that returns the value of the east storage in billion gallons. The program references the function from the reservoir file, which reads through the data line by line until the data's date matches with the inputted date.
-*/
-
 #include <iostream>
 #include "reservoir.h"
 
