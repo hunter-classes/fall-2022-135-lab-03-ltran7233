@@ -14,5 +14,11 @@ int main()
 	std::cout << "Higher Basin on Date: " << compare_basins("05/23/2018") << std::endl;
 	std::cout << "Higher Basin on Date: " << compare_basins("01/05/2018") << std::endl;
 	std::cout << "Higher Basin on Date: " << compare_basins("07/23/2018") << std::endl;
+	reverse_order("05/29/2018","06/02/2018");
+	std::cout << std::endl;
+	reverse_order("01/01/2018","01/05/2018");
+	std::cout << std::endl;
+	reverse_order("09/14/2018","09/18/2018");
+	std::cout << std::endl;
   	return 0;
 }
